@@ -1,0 +1,153 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.bluebg{
+  background-color: #1c5380 ;
+  height: 40vh;
+  width: 100%;
+}
+
+.bluebg img{
+  position: absolute;
+  left: 20%;
+  top: 17% ;
+  width: 280px;
+}
+
+
+.whitebg{
+  background-color:white;
+  height: 60vh;
+  width: 100%;
+  
+  
+}
+
+.whitebg footer {
+  position: absolute;
+  bottom: 3%;
+  left: 25%;
+  
+}
+
+.whitebg footer ul{
+  width: 630px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 12px;
+
+}
+
+.text-block{
+  box-sizing: content-box;
+  width: 505px;
+  background-image: url(./images/frame.png);
+  background-size: cover;
+  position: absolute;
+  left:44%;
+  top:30%;
+  padding: 20px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.text-block h3{
+  color:#06365f;
+}
+
+.text-block p{
+  line-height: 20px;
+}
+
+
+.download-call-to-action{
+  width: 505px;
+  height: 60px;
+  position: absolute;
+  
+  padding:0px;
+  
+ 
+}
+.download-call-to-action img{
+  width: 28%;
+  position: absolute;
+
+}
+
+#applestore{
+  left:0%;
+  top:20%;
+  margin: 0px 10px 10px 0px;
+}
+
+#playstore{
+  left:31%;
+  top:20%;
+  margin: 0px 10px 10px 0px;
+  width: 26%;
+  opacity: 100%;
+}
+
+.footer-menu li{
+  color: #1c5380;
+  font-weight: bold;
+}
+
+#copyright{
+  color: rgb(160, 156, 156)
+}
+
+.div-above-textblock{
+  
+  position: absolute;
+  top:17%;
+  left:45%;
+  width: 525px;
+  height: 80px;
+
+}
+
+.div-above-textblock img{
+  width: 50%;
+  position: absolute;
+  left: 0px;;
+  
+}
+
+.div-above-textblock button{
+  color: white;
+  font-weight: bold;
+  border-style: groove;
+  background-color: #1c5380;
+  width: 110px;
+  height: 35px;
+  position: absolute;
+  right: 0px;
+  top:30%;
+  padding:10px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.div-above-textblock button img{
+ width: 23px;
+ left:10px;
+ 
+
+}
+.div-above-textblock button p{
+  display: inline;
+  margin-left: 13px;
+}
+
+
+
+
